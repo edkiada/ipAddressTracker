@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap');
+
+:root {
+  --Gray950: hsl(0, 0%, 17%);
+  --Gray400: hsl(0, 0%, 58%);
+
+  --fontSize: 18px;
+  --fontweight400: 400;
+  --fontweight500: 500;
+  --fontweight700: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'rubik', sans-serif;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.appHeader {
+  background-image: url(./assets/pattern-bg-desktop.png);
+  height: 30%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.appHeader h1 {
+  color: white;
+  margin-top: 3vh;
+  font-size: calc(1rem + 1.2vw);
+  font-weight: var(--fontweight500);
+}
+
+@media (max-width: 768px) {
+  .appHeader {
+    height: 40%;
+  }
+}

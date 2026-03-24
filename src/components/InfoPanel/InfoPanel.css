@@ -1,0 +1,53 @@
+.InfoPanel {
+	width: 80%;
+	max-width: 70rem;
+	min-height: 10rem;
+	background-color: white;
+	border-radius: 0.4rem;
+	position: absolute;
+	bottom: 0;
+	transform: translateY(50%);
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.divider {
+	background-color: var(--Gray400);
+	width: 1px;
+	height: 4.5rem;
+}
+
+.info {
+	flex: 1;
+	padding: 0 2rem;
+	height: 6rem;
+	padding: 0 2rem;
+}
+
+.info > .title {
+	color: var(--Gray400);
+	font-weight: var(--fontweight700);
+	font-size: 0.75rem;
+	letter-spacing: 0.15rem;
+}
+
+.info > .data {
+	font-weight: var(--fontweight500);
+	font-size: clamp(0.75rem, 3rem - 3.8vh, 1.6rem);
+	padding: 0.6rem 0;
+	word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .InfoPanel {
+		flex-direction: column;
+		text-align: center;
+		width: 90%;
+		padding: 1rem;
+	}
+	.divider {
+		display: none;
+	}
+}
