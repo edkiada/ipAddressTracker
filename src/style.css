@@ -47,5 +47,6 @@ body {
 @media (max-width: 768px) {
   .appHeader {
     height: 40%;
+    background-image: url(./assets/pattern-bg-mobile.png);
   }
 }
