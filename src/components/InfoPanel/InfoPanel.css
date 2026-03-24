@@ -35,7 +35,7 @@
 
 .info > .data {
 	font-weight: var(--fontweight500);
-	font-size: clamp(0.75rem, 3rem - 3.8vh, 1.6rem);
+	font-size: calc(0.8rem + 0.8vw);
 	padding: 0.6rem 0;
 	word-wrap: break-word;
 }
