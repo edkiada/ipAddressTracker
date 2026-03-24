@@ -26,10 +26,10 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop Version
-![Typing Test Desktop Screenshot](.public/desktop.jpg)
+![Typing Test Desktop Screenshot](./screenshot/desktop.jpg)
 
 #### Mobile Version
-![Typing Test Mobile Screenshot](.public/mobile.jpg)
+![Typing Test Mobile Screenshot](./screenshot/mobile.jpg)
 
 ### Links
 
